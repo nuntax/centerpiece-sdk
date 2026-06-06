@@ -1,6 +1,6 @@
 # cproskin
 
-Community SDK for the Finalmouse Centerpiece Pro under-key display. Reverse-engineered from the stock skin PAKs.
+Community SDK for the Finalmouse Centerpiece Pro. Reverse-engineered from the stock skin PAKs.
 
 Write-up: https://nun.tax/blog/reverse-engineering-the-centerpiece-pro/
 
@@ -18,16 +18,15 @@ File > Package Project > Android > Android (ASTC).
 
 The PAK ends up at:
 ```
-Saved/StagedBuilds/Android_ASTC/cproskin/Content/Paks/pakchunk1001-Android_ASTC.pak
+Saved/StagedBuilds/Android_ASTC/cproskin/Content/Paks/pakchunk1337-Android_ASTC.pak
 ```
 
-There is a HID upload script in `uploadscript/upload_ue.js` if you want to push it over USB.
+There is a HID upload script in `uploadscript/upload_ue.js` if you want to push it over USB. Altough this is also possible via xpanel.
 
 ## Notes
 
 Entry map has to be at `Content/map/M_EntryPoint`. Logic goes in Blueprints, not C++. Do not override `GameInstance`, the SkinEngine uses a fixed one.
 
-`GetPositionByKeyIndex` returns `(0, 0)` in PIE on Windows. Real coordinates only show up on a device.
 
 ## License
 
