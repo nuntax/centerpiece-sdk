@@ -1,6 +1,27 @@
-# Visual Studio / Rider / IDE artifacts
-.vs/
-.idea/
+
+Binaries/
+Build/Receipts/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/DerivedDataCache/
+Plugins/*/Saved/
+
+Android/
+Android_ASTC/
+IOS/
+Mac/
+Windows/
+Linux/
+WindowsNoEditor/
+LinuxNoEditor/
+
+Content/Developers/*
+!Content/Developers/.gitkeep
+
 *.sln
 *.suo
 *.sdf
@@ -13,29 +34,50 @@
 *.xcodeproj/
 *.xcworkspace/
 
-# Unreal Engine build/intermediate artifacts (regenerated on build)
-Binaries/
-Build/Receipts/
-DerivedDataCache/
-Intermediate/
-Saved/
-Plugins/*/Binaries/
-Plugins/*/Intermediate/
+.vs/
+.vscode/
+.idea/
+.cproject
+.project
+.settings/
+*.code-workspace
 
-# Node (for the upload script)
+*.ipch
+*.aps
+*.cachefile
+*.psess
+*.vsp
+*.vspx
+
+*.shadercache
+*.bnc
+*.bnchk
+*.ushaderbytecode
+
 node_modules/
 package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# OS noise
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# Personal Developer folder UE auto-creates per user
-Content/Developers/*
-!Content/Developers/.gitkeep
-
-# Editor temp
 *.tmp
 *.swp
+*.swo
 *~
+*.bak
+*.orig
+
+.env
+.env.local
+*.local.ini
+exports.sh
