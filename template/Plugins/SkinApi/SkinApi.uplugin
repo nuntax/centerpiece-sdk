@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Centerpiece Pro Skin API (community)",
+	"Description": "Reverse-engineered SkinAPI surface for building Interactive Skins for the Finalmouse Centerpiece Pro. See https://nun.tax/blog/reverse-engineering-the-centerpiece-pro/ for the discovery write-up.",
+	"Category": "Other",
+	"CreatedBy": "nun",
+	"CreatedByURL": "https://nun.tax",
+	"DocsURL": "https://nun.tax/blog/reverse-engineering-the-centerpiece-pro/",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SkinApi",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Android",
+				"Linux",
+				"Win64"
+			]
+		}
+	],
+	"EnabledByDefault": true
+}

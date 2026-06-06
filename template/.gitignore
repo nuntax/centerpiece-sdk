@@ -1,0 +1,41 @@
+# Visual Studio / Rider / IDE artifacts
+.vs/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+
+# Unreal Engine build/intermediate artifacts (regenerated on build)
+Binaries/
+Build/Receipts/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Node (for the upload script)
+node_modules/
+package-lock.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal Developer folder UE auto-creates per user
+Content/Developers/*
+!Content/Developers/.gitkeep
+
+# Editor temp
+*.tmp
+*.swp
+*~

@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "cproskin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SkinApi",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"LinuxNoEditor",
+		"Windows"
+	]
+}
