@@ -17,6 +17,10 @@
 		{
 			"Name": "SkinApi",
 			"Enabled": true
+		},
+		{
+			"Name": "CenterpieceFlasher",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

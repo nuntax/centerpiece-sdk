@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Centerpiece Flasher",
+	"Description": "Cook a Centerpiece Pro skin pak chunk and flash it to the keyboard directly from the UE editor (Win64 only).",
+	"Category": "Other",
+	"CreatedBy": "nun",
+	"CreatedByURL": "https://nun.tax",
+	"DocsURL": "https://nun.tax/blog/reverse-engineering-the-centerpiece-pro/",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CenterpieceFlasher",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"EnabledByDefault": true
+}
